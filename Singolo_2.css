@@ -1,0 +1,142 @@
+html,body{
+    font-family:"Lato";
+    padding:0;
+    margin:0;
+  }
+  .main{
+    max-width: 1200px;
+    min-width: 1020px;
+    height: 100%;
+    background: transparent;
+    position: relative;
+  }
+  .portfolio{
+    width:100%;
+    height:878px;
+    justify-content: center;
+    display:flex;
+    background: #2d303a;
+    border-bottom:6px solid #323746;
+  }
+  .header{
+    margin-left: 40px;
+    margin-top: 78px;
+  }
+  .header h2{
+   font-size: 30px;
+line-height: 20px;
+color: #666d89;
+font-weight: 900;
+}
+  .header h3{
+    margin-top:-5px;
+   width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-weight: 300;
+}
+  .button {
+    font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-weight: 400;
+  }
+  .button ul{
+    display:flex;
+    list-style-type: none;
+    padding: 0 0  0 0;
+    margin-top:-7px;
+  
+  }
+  .button li{
+    padding:2px 6px 2px 6px;
+    margin-right: 12px;
+    font-size: 12px;
+    line-height: 8px;
+    border:1px solid #767e9e;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .button .act a{
+  
+    color:#dedede;
+    border-color: #c5c5c5;
+  }
+  .button a{
+    width:10px;
+    color: #767e9e;
+    text-decoration: none;
+  }
+   a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #dedede;
+  }
+    .icons img{
+    padding-right: 5px;
+  } .images {
+    display:grid;
+    grid-gap: 20px;
+    padding-top: 5px;
+    overflow: hidden;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 185px 185px 185px 185px;
+  }
+  .grid {
+    background-color: #464b5e;
+    display: flex;
+    background-position:center;
+    background-size: cover;
+  }
+  .about-us{
+    width:100%;
+    height:728px;
+    justify-content: center;
+    display:flex;
+    background:#f2f2f2;
+    border-bottom: 6px solid #ffffff;
+  }
+  .about{
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+  .about h2{
+    font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  }
+  .about h3{
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-weight: 300;
+  }
+  .us{
+    margin-top: 45px;
+    margin-left: 40px;
+    display:grid;
+    grid-gap: 20px  20px;
+  
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 70px 32px;
+  }
+  
+  .us h3{
+    font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  margin-top: -3px;
+  }
+  .us h4{
+    margin-top: -6px;
+    width: 300px;
+  height: 175px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-weight: 400;
+  }
